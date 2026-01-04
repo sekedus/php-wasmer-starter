@@ -2,5 +2,8 @@ kind: wasmer.io/App.v0
 name: php-starter
 owner: wasmer-examples
 package: .
+volumes:
+- name: app
+  mount: /app
 scaling:
   mode: single_concurrency
